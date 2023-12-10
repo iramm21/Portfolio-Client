@@ -27,16 +27,16 @@ const ServicesSection = () => {
             <div className="py-12 bg-[#1a1a1a] text-white">
                   <div className="container mx-auto px-4">
                         <div className="text-center">
-                              <h2 className="text-4xl font-bold">Services</h2>
-                              <p className="text-xl mt-4">What I Can Do For You</p>
+                              <h2 className="text-3xl md:text-4xl font-bold">Services</h2>
+                              <p className="text-lg md:text-xl mt-4">What I Can Do For You</p>
                         </div>
                         <div className="flex flex-wrap justify-center mt-8">
                               {services.map((service, index) => (
-                                    <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+                                    <div key={index} className="w-full sm:w-1/2 md:w-1/3 px-4 mb-8">
                                           <div className="bg-gray-800 shadow-xl rounded-lg p-6 flex flex-col items-center text-center">
                                                 <service.Icon className="text-4xl mb-4" />
-                                                <h3 className="text-2xl font-semibold mb-2">{service.title}</h3>
-                                                <p>{service.description}</p>
+                                                <h3 className="text-xl md:text-2xl font-semibold mb-2">{service.title}</h3>
+                                                <p className="text-base">{service.description}</p>
                                           </div>
                                     </div>
                               ))}

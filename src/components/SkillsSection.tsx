@@ -20,17 +20,17 @@ const SkillsSection = () => {
                         backgroundAttachment: 'fixed'
                   }}
             >
-                  <div className="container mx-auto px-4 rounded-lg">
+                  <div className="container mx-auto p-4 bg-black bg-opacity-50 rounded-lg">
                         <div className="text-center">
-                              <h2 className="text-4xl font-bold">My Skills</h2>
-                              <p className="text-xl mt-4">Technologies I love working with:</p>
+                              <h2 className="text-3xl md:text-4xl font-bold">My Skills</h2>
+                              <p className="text-lg md:text-xl mt-4">Technologies I love working with:</p>
                         </div>
                         <div className="mt-8">
                               {skills.map((skill, index) => (
                                     <div key={index} className="mb-4">
                                           <div className="flex justify-between items-center">
-                                                <span className="text-lg font-medium">{skill.name}</span>
-                                                <span className="text-sm font-medium">{skill.level}</span>
+                                                <span className="text-base md:text-lg font-medium">{skill.name}</span>
+                                                <span className="text-xs md:text-sm font-medium">{skill.level}</span>
                                           </div>
                                           <div className="w-full bg-gray-700 rounded-full h-2.5">
                                                 <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: skill.level }}></div>

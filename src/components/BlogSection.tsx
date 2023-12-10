@@ -1,6 +1,5 @@
 // BlogSection.js
 import React from 'react';
-// Placeholder for blog post images
 import BlogImage1 from '../assets/blog/blog1.jpg';
 import BlogImage2 from '../assets/blog/blog2.jpg';
 import BlogImage3 from '../assets/blog/blog3.jpg';
@@ -33,16 +32,16 @@ const BlogSection = () => {
             <div className="py-12" style={{ backgroundImage: `url(${BackgroundPattern})`, backgroundSize: 'cover' }}>
                   <div className="container mx-auto px-4">
                         <div className="text-center mb-12">
-                              <h2 className="text-4xl font-bold text-white">Blog</h2>
-                              <p className="text-xl mt-4 text-gray-300">Latest Articles and News</p>
+                              <h2 className="text-3xl md:text-4xl font-bold text-white">Blog</h2>
+                              <p className="text-lg md:text-xl mt-4 text-gray-300">Latest Articles and News</p>
                         </div>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                               {blogPosts.map((post) => (
-                                    <div key={post.id} className="max-w-sm rounded overflow-hidden shadow-xl bg-[#1a1a1a] transform hover:scale-105 transition duration-500 ease-in-out">
+                                    <div key={post.id} className="max-w-sm mx-auto rounded overflow-hidden shadow-xl bg-[#1a1a1a] transform hover:scale-105 transition duration-500 ease-in-out">
                                           <img className="w-full" src={post.image} alt={post.title} />
                                           <div className="px-6 py-4">
-                                                <div className="font-bold text-xl mb-2 text-white">{post.title}</div>
-                                                <p className="text-gray-400 text-base">
+                                                <div className="font-bold text-lg md:text-xl mb-2 text-white">{post.title}</div>
+                                                <p className="text-gray-400 text-sm md:text-base">
                                                       {post.excerpt}
                                                 </p>
                                           </div>

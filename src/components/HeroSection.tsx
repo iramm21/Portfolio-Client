@@ -6,15 +6,15 @@ import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 const HeroSection = () => {
       return (
             <div className="bg-cover bg-center h-96" style={{ backgroundImage: `url(${HeroBackground})` }}>
-                  <div className="flex flex-col items-center justify-center h-full">
+                  <div className="flex flex-col items-center justify-center h-full px-4">
                         {/* Title */}
-                        <h1 className="text-5xl font-bold text-[#1a1a1a]">Welcome to My Portfolio</h1>
+                        <h1 className="text-3xl md:text-5xl font-bold text-[#1a1a1a] text-center">Welcome to My Portfolio</h1>
 
                         {/* Subtitle */}
-                        <p className="text-xl text-[#1a1a1a] mt-4">Building innovative web solutions</p>
+                        <p className="text-lg md:text-xl text-zinc-500 mt-2 md:mt-4 text-center">Building innovative web solutions</p>
 
                         {/* Social Media Links */}
-                        <div className="flex space-x-4 mt-6">
+                        <div className="flex space-x-4 mt-4 md:mt-6">
                               <a href="https://twitter.com" className="text-[#1a1a1a] hover:text-blue-500">
                                     <FaTwitter />
                               </a>
