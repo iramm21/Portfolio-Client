@@ -15,15 +15,15 @@ const ContactSection = () => {
                                     {/* Contact Information */}
                                     <div className="mb-4">
                                           <FaEnvelope className="inline mr-2" />
-                                          email@example.com
+                                          isaac.ramm@outlook.com
                                     </div>
                                     <div className="mb-4">
                                           <FaPhone className="inline mr-2" />
-                                          +123 456 7890
+                                          +61 456-150-068
                                     </div>
                                     <div className="mb-4">
                                           <FaHome className="inline mr-2" />
-                                          123 Street, City, Country
+                                          QLD, Rockhampton
                                     </div>
                                     {/* Social Links */}
                                     <div className="flex mt-4">

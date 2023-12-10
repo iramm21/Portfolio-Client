@@ -7,9 +7,9 @@ import Image3 from '../assets/portfolio/Project3.jpg';
 // ... import other images
 
 const portfolioItems = [
-      { id: 1, src: Image1, title: 'Project Title 1', description: 'Brief description' },
-      { id: 2, src: Image2, title: 'Project Title 2', description: 'Brief description' },
-      { id: 3, src: Image3, title: 'Project Title 3', description: 'Brief description' },
+      { id: 1, src: Image1, title: 'BasketBuddy', description: 'A Basketball Management / Social App' },
+      { id: 2, src: Image2, title: 'Videzy', description: 'A super simple feature rich video editing software' },
+      { id: 3, src: Image3, title: 'CampBud', description: 'A Camping App useful for preparation tips tricks and more' },
       // ... add other portfolio items
 ];
 
@@ -26,8 +26,8 @@ const PortfolioSection = () => {
                                     <div key={item.id} className="shadow-lg group container rounded-md bg-white relative overflow-hidden">
                                           <img src={item.src} alt={item.title} className="object-cover object-center h-full w-full transition duration-500 ease-in-out transform group-hover:scale-110" />
                                           <div className="absolute bottom-0 left-0 px-3 py-4">
-                                                <h3 className="text-lg text-gray-900 group-hover:text-white">{item.title}</h3>
-                                                <p className="text-gray-600 group-hover:text-white text-sm">{item.description}</p>
+                                                <h3 className="text-lg text-zinc-100 group-hover:text-white">{item.title}</h3>
+                                                <p className="text-zinc-200 group-hover:text-white text-sm">{item.description}</p>
                                           </div>
                                     </div>
                               ))}

@@ -21,9 +21,9 @@ const AboutSection = () => {
                               <ul className="text-sm mb-4">
                                     <li className="flex items-center mb-2"><FaBirthdayCake className="mr-2" /> Dec 13, 2001</li>
                                     <li className="flex items-center mb-2"><FaPhone className="mr-2" /> +61 456-150-068</li>
-                                    <li className="flex items-center mb-2"><FaEnvelope className="mr-2" /> dev@example.com</li>
-                                    <li className="flex items-center mb-2"><FaHome className="mr-2" /> 2861 High Meadow Lane, Bear Creek</li>
-                                    <li className="flex items-center mb-2"><FaLanguage className="mr-2" /> English, Germanic</li>
+                                    <li className="flex items-center mb-2"><FaEnvelope className="mr-2" /> isaac.ramm@outlook.com</li>
+                                    <li className="flex items-center mb-2"><FaHome className="mr-2" /> QLD, Australia</li>
+                                    <li className="flex items-center mb-2"><FaLanguage className="mr-2" /> English</li>
                                     <li className="flex items-center mb-2"><FaUserTie className="mr-2" /> Available for Freelance</li>
                               </ul>
                               <a href="path_to_resume.pdf" download className="flex items-center justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
